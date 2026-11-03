@@ -1,0 +1,11 @@
+# Plan familiar con datos personales: nunca se versiona
+mi-plan/
+
+# Salidas generadas (PDF, HTML)
+dist/
+
+# Python
+__pycache__/
+
+# Sistema
+.DS_Store
