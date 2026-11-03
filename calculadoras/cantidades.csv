@@ -1,0 +1,34 @@
+categoria,item,unidad,base_3d,base_7d,escala,nota
+Agua,Agua potable,L,36,84,si,3 L por persona por día
+Agua,Bidones de 20 L,bidones,calc,calc,calc,ceil(agua/20)
+Agua,Potabilizar (lavandina sin aditivos o pastillas),envase,1,1,no,
+Comida,Atún caballa o sardinas en lata,latas,6,14,si,
+Comida,Legumbres choclo o arvejas en lata,latas,6,14,si,
+Comida,Arroz y fideos,kg,1,2.5,si,requiere cocinar
+Comida,Galletitas galletas de agua o pan lactal,kg,1.2,3,si,
+Comida,Frutos secos o maní,g,500,1200,si,
+Comida,Dulce de leche mermelada o pasta de maní,frascos,1,3,si,
+Comida,Leche larga vida,L,3,7,si,
+Comida,Barras de cereal o fruta seca,unidades,12,28,si,
+Comida,Tomate triturado o puré en caja,cajas,2,4,si,
+Comida,Aceite sal y azúcar,-,lo que ya tengas,un poco de reserva,no,
+Cocina,Anafe con garrafa o cartucho,unidad,1,1,no,
+Cocina,Fósforos o encendedor,unidad,1,1,no,
+Cocina,Abrelatas manual,unidad,1,1,no,
+Higiene y salud,Papel higiénico,rollos,4,10,si,
+Higiene y salud,Alcohol en gel,unidades,1,2,si,
+Higiene y salud,Jabón,unidades,1,2,si,
+Higiene y salud,Toallitas húmedas,paquetes,1,2,si,
+Higiene y salud,Bolsas de residuos,unidades,10,20,si,
+Higiene y salud,Sobres de suero de rehidratación oral,sobres,4,8,si,
+Higiene y salud,Medicación habitual de cada persona,-,7 días,7 días,no,
+Higiene y salud,Botiquín básico,unidad,1,1,no,
+Higiene y salud,Termómetro,unidad,1,1,no,
+Higiene y salud,Analgésicos (presentación pediátrica para los chicos),caja,1,1,no,dosis: consultar
+Energía y comunicación,Radio a pilas o manivela,unidad,1,1,no,
+Energía y comunicación,Linternas,unidades,2,2,no,
+Energía y comunicación,Pilas de repuesto,unidades,8,8,no,
+Energía y comunicación,Power banks cargados,unidades,2,2,no,
+Documentos y otros,Efectivo en billetes chicos,-,unos días de compras básicas,unos días de compras básicas,no,
+Documentos y otros,Copias de DNI medicación y teléfonos (papel),juego,1,1,no,
+Documentos y otros,Mantas o abrigo,unidades,4,4,si,una por persona
