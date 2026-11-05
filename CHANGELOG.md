@@ -8,6 +8,7 @@ El formato se basa en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/
 
 ### Revisión del 2026-11-05
 
+- Edición pública unificada en PDF, con índice enlazado, marcadores, fuentes y plantilla vacía; excluye el plan privado. Se incorpora el acceso desde el README.
 - Repaso integral documentado en `REVISION.md`: qué se conserva, correcciones aplicadas y límites de la evidencia.
 - Contexto internacional contrastado con fuentes primarias; registro de fuentes ampliado y discrepancia de fecha británica resuelta.
 - Agua: se separa bebida/comidas de higiene; se priorizan etiqueta y pauta local de lavandina; se resuelve la traducción del CDC y se agrega mantenimiento del tanque.

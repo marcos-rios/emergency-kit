@@ -136,9 +136,11 @@ El frontmatter de cada archivo indica su confianza general: `verificada` (todo c
 
 La guía es Markdown plano, sin JavaScript, sin imágenes remotas y con enlaces relativos. Funciona sin conexión.
 
+La [edición pública unificada en PDF](output/pdf/guia-preparacion-familiar-argentina.pdf) reúne los capítulos, las checklists, las tablas, la plantilla vacía, los pendientes, la revisión y las fuentes. Conserva el estado de borrador y excluye `mi-plan/`.
+
 - **Copia local.** Cloná el repositorio en la computadora y abrilo con cualquier editor de texto o visor de Markdown.
 - **Pendrive.** Guardá una copia de la carpeta completa en un pendrive, junto con tu `mi-plan/`.
-- **Celular.** Generá un PDF y guardalo en el teléfono, fuera de la nube.
+- **Celular.** Descargá el PDF y guardalo en el teléfono, fuera de la nube.
 - **Papel.** Imprimí lo crítico y guardalo con la mochila:
   - teléfonos de emergencia ([09-argentina.md](09-argentina.md));
   - potabilización del agua ([01-agua.md](01-agua.md));
