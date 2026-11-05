@@ -124,6 +124,19 @@ def validar_frontmatter(ruta, texto, ids_fuentes, reporte):
                 reporte.error(rel(ruta), f"el frontmatter cita {id_fuente}, que no está en fuentes.md")
     if "\n## Fuentes" not in texto:
         reporte.error(rel(ruta), "falta la sección '## Fuentes'")
+    else:
+        # La bibliografía no debe contar como evidencia de que una fuente se usa.
+        sin_cabecera = texto.split("\n---\n", 1)[-1]
+        cuerpo, bibliografia = sin_cabecera.rsplit("\n## Fuentes", 1)
+        usados = set(RE_ID_FUENTE.findall(cuerpo))
+        declarados = set(RE_ID_FUENTE.findall(datos.get("fuentes", "")))
+        listados = set(RE_ID_FUENTE.findall(bibliografia))
+        if usados != declarados:
+            reporte.error(rel(ruta), "los IDs del cuerpo no coinciden con fuentes del frontmatter")
+        if usados != listados:
+            reporte.error(rel(ruta), "los IDs del cuerpo no coinciden con la bibliografía")
+        if re.search(r"^## ", bibliografia, re.MULTILINE):
+            reporte.error(rel(ruta), "hay secciones después de '## Fuentes'")
 
 
 def validar_enlaces(ruta, texto, reporte):
@@ -132,7 +145,7 @@ def validar_enlaces(ruta, texto, reporte):
         if re.match(r"^[a-z]+://", destino):
             reporte.error(rel(ruta), f"imagen remota no permitida: {destino}")
     for destino in RE_ENLACE.findall(texto):
-        if re.match(r"^(https?|mailto):", destino) or destino.startswith("#"):
+        if re.match(r"^(https?|mailto|tel):", destino) or destino.startswith("#"):
             continue
         objetivo = destino.split("#", 1)[0]
         if not objetivo:
@@ -163,6 +176,7 @@ def validar_pendientes(contenido, reporte):
         reporte.error("PENDIENTES.md", "no existe")
         return
     entradas = {pid: texto for pid, texto in RE_ENTRADA_PENDIENTE.findall(leer(ruta_pendientes))}
+    cerrados = set(re.findall(r"^- \[[xX]\] \*\*(P\d\d)\.\*\*", leer(ruta_pendientes), re.MULTILINE))
     if not entradas:
         reporte.error("PENDIENTES.md", "no tiene entradas con formato '- [ ] **P01.** ...'")
         return
@@ -180,6 +194,8 @@ def validar_pendientes(contenido, reporte):
                 if pid not in entradas:
                     reporte.error(rel(ruta), f"PENDIENTE cita {pid}, que no está en PENDIENTES.md")
                     continue
+                if pid in cerrados:
+                    reporte.error(rel(ruta), f"PENDIENTE cita {pid}, que ya está cerrado")
                 referenciados.add(pid)
                 comunes = palabras(texto) & palabras(entradas[pid])
                 if len(comunes) < 2:

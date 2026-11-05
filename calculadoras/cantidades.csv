@@ -1,7 +1,7 @@
 categoria,item,unidad,base_3d,base_7d,escala,nota
-Agua,Agua potable,L,36,84,si,3 L por persona por día
+Agua,Agua potable,L,36,84,si,3 L por persona por día para bebida y comidas; higiene aparte
 Agua,Bidones de 20 L,bidones,calc,calc,calc,ceil(agua/20)
-Agua,Potabilizar (lavandina sin aditivos o pastillas),envase,1,1,no,
+Agua,Potabilizar (producto apto según etiqueta o pastillas),envase,1,1,no,seguir instrucciones de uso
 Comida,Atún caballa o sardinas en lata,latas,6,14,si,
 Comida,Legumbres choclo o arvejas en lata,latas,6,14,si,
 Comida,Arroz y fideos,kg,1,2.5,si,requiere cocinar
@@ -20,11 +20,11 @@ Higiene y salud,Alcohol en gel,unidades,1,2,si,
 Higiene y salud,Jabón,unidades,1,2,si,
 Higiene y salud,Toallitas húmedas,paquetes,1,2,si,
 Higiene y salud,Bolsas de residuos,unidades,10,20,si,
-Higiene y salud,Sobres de suero de rehidratación oral,sobres,4,8,si,
+Higiene y salud,Rehidratación oral acordada con un profesional,-,según indicación,según indicación,no,consultar a médico o farmacéutico
 Higiene y salud,Medicación habitual de cada persona,-,7 días,7 días,no,
 Higiene y salud,Botiquín básico,unidad,1,1,no,
 Higiene y salud,Termómetro,unidad,1,1,no,
-Higiene y salud,Analgésicos (presentación pediátrica para los chicos),caja,1,1,no,dosis: consultar
+Higiene y salud,Medicamentos acordados con un profesional,-,según indicación,según indicación,no,sin dosis; consultar a médico o farmacéutico
 Energía y comunicación,Radio a pilas o manivela,unidad,1,1,no,
 Energía y comunicación,Linternas,unidades,2,2,no,
 Energía y comunicación,Pilas de repuesto,unidades,8,8,no,

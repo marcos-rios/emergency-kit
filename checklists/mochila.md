@@ -1,14 +1,14 @@
 ---
 titulo: Checklist de mochila
-ultima_revision: 2026-11-02
+ultima_revision: 2026-11-05
 estado: borrador
 confianza: mixta
-fuentes: [S01]
+fuentes: [S37, S38]
 ---
 
 # Checklist de mochila
 
-Basada en [S01]. Detalle: [Evacuación](../08-evacuacion.md).
+Lista orientativa basada en la Cruz Roja [S38] y el plan de SINAGIR [S37]. Detalle: [Evacuación](../08-evacuacion.md).
 
 ## Documentos y dinero
 
@@ -28,7 +28,7 @@ Basada en [S01]. Detalle: [Evacuación](../08-evacuacion.md).
 
 ## Agua y comida
 
-- [ ] Agua.
+- [ ] Agua transportable; la reserva completa de casa se planifica por separado (`RECOMENDACIÓN EDITORIAL`).
 - [ ] Comida de consumo rápido que no necesite cocción.
 
 ## Luz y comunicación
@@ -51,9 +51,10 @@ Basada en [S01]. Detalle: [Evacuación](../08-evacuacion.md).
 
 ## Armado
 
-- [ ] Todo en bolsas herméticas, dentro de uno o dos bolsos fáciles de cargar [S01].
-- [ ] La mochila está en un lugar que todos conocen [S01].
+- [ ] Objetos protegidos del agua y carga distribuida; cada persona probó llevar su bolso (`RECOMENDACIÓN EDITORIAL`).
+- [ ] La mochila está en un lugar acordado y accesible (`RECOMENDACIÓN EDITORIAL`).
 
 ## Fuentes
 
-- S01: Ready.gov, Build a Kit.
+- S37: SINAGIR: Plan Familiar de Emergencias.
+- S38: Cruz Roja Americana: Survival Kit Supplies.

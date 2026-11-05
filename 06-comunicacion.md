@@ -1,9 +1,9 @@
 ---
 titulo: Comunicación
-ultima_revision: 2026-11-02
+ultima_revision: 2026-11-05
 estado: borrador
 confianza: mixta
-fuentes: [S07, S15]
+fuentes: [S07, S15, S42]
 ---
 
 # Comunicación
@@ -26,19 +26,19 @@ fuentes: [S07, S15]
 - Elegí un contacto fuera de la zona al que todos avisen cómo están.
 - Tené los teléfonos importantes en papel, no solo en el celular.
 - Acordá quién busca a los chicos en la escuela si no hay comunicación.
-- Cuando las líneas se saturan, los mensajes de texto suelen pasar mejor que las llamadas.
+- Probá mensajes breves si una llamada no se completa. Acordá de antemano cómo avisarse; ningún canal garantiza disponibilidad.
 - Si podés, tené dos líneas de operadores distintos en la familia.
 
 Anotá todo en tu plan privado. Ver [plantilla](plantillas/mi-plan.md).
 
 ## Radioafición
 
-Según [S15]:
+La nota S15 se contrasta con la información oficial de ENACOM [S42]:
 
-- ENACOM eliminó la renovación periódica de las licencias de radioaficionado.
-- Sigue exigiendo un certificado de antecedentes cada 5 años al solicitar una licencia, una rehabilitación o un cambio de categoría.
-- Esos trámites tienen aranceles.
-- Los radioaficionados pueden participar en redes de protección civil y de emergencia en los casos que determine ENACOM.
+- ENACOM eliminó el vencimiento periódico de las licencias, sujeto al cumplimiento de los requisitos de vigencia [S42].
+- El certificado de antecedentes debe actualizarse con una periodicidad no mayor a 5 años desde la última presentación para mantener la vigencia; no depende solo de solicitar otro trámite [S42].
+- Verificá los requisitos y aranceles vigentes en ENACOM antes de iniciar el trámite (`RECOMENDACIÓN EDITORIAL`).
+- La participación en redes de emergencia requiere respetar la autorización y coordinación aplicables; una licencia no garantiza que exista una red local operativa (`RECOMENDACIÓN EDITORIAL`).
 
 Un radio club es el punto de partida para obtener la licencia (`RECOMENDACIÓN EDITORIAL`).
 
@@ -52,5 +52,6 @@ Un radio club es el punto de partida para obtener la licencia (`RECOMENDACIÓN E
 
 ## Fuentes
 
-- S07: Servicio Meteorológico Nacional, alertas.
-- S15: DPL News, ENACOM simplificó el Reglamento de Radioaficionados.
+- S07: Servicio Meteorológico Nacional: alertas.
+- S15: DPL News: ENACOM simplificó el Reglamento de Radioaficionados.
+- S42: ENACOM: Radioaficionados.

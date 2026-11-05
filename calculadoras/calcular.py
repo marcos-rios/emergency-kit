@@ -55,7 +55,7 @@ def escalar(fila, personas, dias):
     base_3d = float(fila["base_3d"])
     base_7d = float(fila["base_7d"])
     if dias <= 3:
-        base = base_3d
+        base = base_3d / 3 * dias
     elif dias == 7:
         base = base_7d
     else:
@@ -132,15 +132,18 @@ def main(argv=None):
 
     personas, dias = args.personas, args.dias
     litros = agua_litros(personas, dias)
+    filas = calcular(personas, dias)
+    latas = sum(int(fila["cantidad"]) for fila in filas if fila["unidad"] == "latas")
 
     print(f"Reserva para {personas} personas y {dias} días (ESTIMACIÓN)")
     print()
-    print(f"Agua: {litros} L ({personas} × {dias} × {LITROS_POR_PERSONA_DIA} L)")
+    print(f"Agua para bebida y comidas: {litros} L ({personas} × {dias} × {LITROS_POR_PERSONA_DIA} L)")
+    print("Sumá agua para higiene y otros usos; esa reserva no está incluida.")
     print(f"Bidones de {LITROS_POR_BIDON} L: {bidones(litros)}")
     print(f"Comidas: {personas * dias * COMIDAS_POR_DIA} ({personas} × {dias} × {COMIDAS_POR_DIA})")
-    print(f"Latas de atún o legumbres en total: {personas * dias} ({personas} × {dias})")
+    print(f"Latas en total: {latas} (suma de las filas redondeadas de la tabla)")
     print()
-    imprimir_tabla(calcular(personas, dias))
+    imprimir_tabla(filas)
     print()
     print("Las cantidades son orientativas. Dosis de medicamentos: consultá a un médico o farmacéutico.")
     return 0

@@ -1,65 +1,63 @@
 ---
 titulo: Salud
-ultima_revision: 2026-11-02
+ultima_revision: 2026-11-05
 estado: borrador
 confianza: mixta
-fuentes: [S01, S04, S17, S25]
+fuentes: [S17, S25, S38, S39, S49, S53]
 ---
 
 # Salud
 
-Esta sección no indica dosis de medicamentos. Para cualquier dosis, consultá a un médico o farmacéutico.
+La guía no reemplaza el consejo médico ni indica dosis de medicamentos. Para medicación, presentaciones pediátricas, tratamientos o necesidades individuales, consultá a un médico o farmacéutico.
 
-## Botiquín y artículos
+## Botiquín
 
-Según [S01]:
+Material básico según el Ministerio de Salud [S53]:
 
-- [ ] Gasas y vendas.
-- [ ] Antiséptico.
+- [ ] Guantes descartables.
+- [ ] Jabón para limpieza inicial.
+- [ ] Gasas, vendas y apósitos estériles.
+- [ ] Cinta para fijar apósitos.
 - [ ] Tijera.
-- [ ] Guantes.
-- [ ] Termómetro.
-- [ ] Analgésicos.
-- [ ] Antidiarreicos.
-- [ ] Antiácidos.
-- [ ] Barbijos.
-- [ ] Silbato.
-- [ ] Anteojos de repuesto o líquido para lentes de contacto.
+- [ ] Productos de higiene de manos y antiséptico apropiado.
 
-Sumá sobres de suero de rehidratación oral (`RECOMENDACIÓN EDITORIAL`).
+Guardalo en un lugar fresco, seco y accesible para los adultos, fuera del alcance de los chicos. Revisá el estado y los vencimientos [S53].
 
-## Medicación
+Termómetro, anteojos de repuesto y otros elementos personales pueden agregarse según necesidades (`RECOMENDACIÓN EDITORIAL`). Los analgésicos, antidiarreicos, antiácidos y suplementos no se presentan como compra o uso universal: acordalos con un profesional (`RECOMENDACIÓN EDITORIAL`).
 
-- Tené al menos una semana de lo que cada persona toma a diario [S17].
-- Pedí las recetas con margen y renová antes de que se acabe (`RECOMENDACIÓN EDITORIAL`).
-- Guardá una copia de las recetas con los documentos. Ver [Evacuación](08-evacuacion.md).
+## Medicación habitual
+
+- La Cruz Roja Americana incluye una reserva de 7 días de medicación y artículos médicos en su kit [S38]. Es una referencia de preparación, no una indicación para cambiar tratamientos.
+- Acordá la reserva y las recetas con el médico o farmacéutico. No interrumpas ni modifiques el tratamiento por esta guía (`RECOMENDACIÓN EDITORIAL`).
+- Guardá copia de las recetas y un listado privado de la medicación. Ver [plantilla](plantillas/mi-plan.md).
+- Si algo requiere refrigeración, energía o un equipo específico, pedí un plan de contingencia al equipo tratante y al fabricante; no extrapoles los tiempos de conservación de alimentos a medicamentos (`RECOMENDACIÓN EDITORIAL`).
+
+La atribución sanitaria anterior a una nota periodística S17 se retira; ahora la reserva se respalda en S38.
 
 ## Chicos, mayores y mascotas
 
-Según [S01]:
+Contemplá alimentos especiales, pañales, elementos de movilidad, anteojos y necesidades de animales a cargo. La Cruz Roja recomienda adaptar el kit a cada integrante [S38].
 
-- Presentaciones pediátricas de los medicamentos habituales.
-- Leche o fórmula y pañales.
-- Medicación, audífonos y pilas para los audífonos de las personas mayores.
-- Comida y agua extra para las mascotas.
+La preparación de fórmula infantil requiere agua y condiciones seguras [S39]. Acordá alternativas con el equipo de salud si no podés asegurar esas condiciones (`RECOMENDACIÓN EDITORIAL`).
 
 ## Primeros auxilios
 
-- El Ministerio de Salud publica una guía de primeros auxilios [S25], enlazada desde el portal de emergencias [S04].
-- Un curso de primeros auxilios y RCP es una buena inversión (`RECOMENDACIÓN EDITORIAL`).
+El Ministerio de Salud recomienda evaluar la escena sin exponerse, llamar a emergencias y asistir siguiendo indicaciones [S25].
+
+- Confirmá el número de emergencias médicas de tu localidad [S25]. Ver [Argentina](09-argentina.md).
+- Realizá un curso de primeros auxilios y RCP (`RECOMENDACIÓN EDITORIAL`).
 
 ## Bienestar
 
-`RECOMENDACIÓN EDITORIAL`
+Mantené rutinas, descansos y contacto con personas de confianza (`RECOMENDACIÓN EDITORIAL`).
 
-- Mantené las rutinas de sueño y de comida.
-- Limitá el consumo de noticias.
-- Hablá con alguien de confianza.
-- Ante una crisis emocional, llamá a la línea 135 [S04].
+Para asistencia ante una crisis suicida, el contacto consultado del Centro de Asistencia al Suicida es [0800 345 1435](tel:+548003451435?oai_link_source=model_response_hotline) [S49]. No se atribuyen horarios ni cobertura a otros números sin verificarlos.
 
 ## Fuentes
 
-- S01: Ready.gov, Build a Kit.
-- S04: Argentina.gob.ar, Emergencias.
-- S17: The New York Sun, 33 países piden acopiar suministros.
-- S25: Ministerio de Salud, primeros auxilios.
+- S17: The New York Sun: 33 países piden acopiar suministros.
+- S25: Ministerio de Salud: primeros auxilios.
+- S38: Cruz Roja Americana: Survival Kit Supplies.
+- S39: CDC: How to Make Water Safe in an Emergency.
+- S49: Centro de Asistencia al Suicida: ayuda.
+- S53: Ministerio de Salud: botiquín de primeros auxilios.

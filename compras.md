@@ -1,9 +1,9 @@
 ---
 titulo: Compras
-ultima_revision: 2026-11-02
+ultima_revision: 2026-11-05
 estado: borrador
-confianza: editorial
-fuentes: [S02]
+confianza: mixta
+fuentes: [S39, S41, S51]
 ---
 
 # Compras
@@ -24,8 +24,8 @@ Todo este archivo es `RECOMENDACIÓN EDITORIAL`, salvo donde se indica una fuent
 ### Agua
 
 - [ ] Bidones o botellas aptos para alimentos, con tapa.
-- [ ] Lavandina sin perfume ni aditivos, o pastillas potabilizadoras.
-- [ ] Filtro portátil: buscá un poro de 0,3 micrones o menos para bacterias y de 1 micrón o menos para parásitos. No elimina virus: sumá un desinfectante [S02].
+- [ ] Lavandina registrada y apta para desinfectar agua, usada según su etiqueta, o pastillas potabilizadoras [S51].
+- [ ] Filtro portátil: verificá poro absoluto de 0,3 micrones o menor para bacterias y de 1 micrón o menor para parásitos. Sumá desinfección: esos filtros no aseguran eliminar virus [S39].
 - [ ] Olla con tapa.
 
 ### Luz y energía
@@ -62,9 +62,9 @@ Todo este archivo es `RECOMENDACIÓN EDITORIAL`, salvo donde se indica una fuent
 
 ## Nivel 3: para el final
 
-- [ ] Generador a combustible. Solo se usa al aire libre, lejos de ventanas y puertas, nunca adentro.
+- [ ] Generador a combustible, solo si existe una ubicación exterior segura. Nunca en garaje o galpón aunque estén abiertos [S41]. Ver [Energía y cocina](03-energia-y-cocina.md).
 
-Para un corte de pocos días, una power station suele alcanzar.
+La autonomía de una batería de respaldo depende de la carga, la capacidad utilizable y las pérdidas. Dimensioná los equipos antes de comprar; no se promete una cantidad de días (`RECOMENDACIÓN EDITORIAL`).
 
 ## Qué comprar por escenario
 
@@ -95,4 +95,6 @@ Ver también: [Agua](01-agua.md), [Energía y cocina](03-energia-y-cocina.md), [
 
 ## Fuentes
 
-- S02: CDC, cómo hacer que el agua sea segura en una emergencia.
+- S39: CDC: How to Make Water Safe in an Emergency.
+- S41: CPSC: Generators and Engine-Driven Tools.
+- S51: SENASA: alimentos y agua ante emergencias y cortes de luz.

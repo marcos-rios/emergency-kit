@@ -1,75 +1,81 @@
 ---
 titulo: Argentina
-ultima_revision: 2026-11-02
+ultima_revision: 2026-11-05
 estado: borrador
 confianza: mixta
-fuentes: [S04, S05, S06, S07]
+fuentes: [S04, S05, S06, S07, S37, S43, S44, S45, S50, S52]
 ---
 
 # Argentina
 
 ## Teléfonos de emergencia
 
-Según [S04]:
-
-| Número | Servicio | Para qué |
+| Número | Servicio | Alcance que respalda la fuente |
 |---|---|---|
-| 911 | Central de Emergencias Nacional | Ambulancia o policía |
-| 100 | Bomberos | Incendios |
-| 107 | SAME | Emergencias médicas en la Ciudad de Buenos Aires y algunas localidades bonaerenses |
-| 103 | Defensa Civil | Asistencia en desastres como derrumbes, sismos o inundaciones |
-| 105 | Emergencias ambientales | Denuncia de posibles catástrofes ambientales |
-| 106 | Prefectura Naval | Emergencias en ríos, lagos y costas |
-| 135 | Prevención del suicidio | Asistencia ante crisis emocionales |
-| 144 | Violencia de género | Contención y asesoramiento |
-| 142 | Chicos extraviados | Búsqueda de menores perdidos |
+| 911 | Central de Emergencias Nacional | Solicitud de asistencia de emergencia [S04] |
+| 100 | Bomberos | Incendios y asistencia correspondiente [S04] |
+| 107 | SAME | El portal nacional lo publica para CABA y localidades bonaerenses; confirmá la cobertura local [S04] |
+| 103 | Defensa Civil | Asistencia ante desastres [S04] |
+| 105 | Emergencias ambientales | Denuncia de posibles catástrofes ambientales [S04] |
+| 106 | Prefectura Naval | Emergencias en ríos, lagos y costas [S04] |
+| 142 | Chicos extraviados | Búsqueda de menores [S04] |
 
-Sumá en tu plan privado los números locales: Protección Civil, Bomberos y Policía de tu provincia y municipio. Ver [plantilla](plantillas/mi-plan.md).
+Para asistencia de salud mental, ver [Salud](05-salud.md). Guardá también en tu plan privado los contactos del municipio y de tus prestadores (`RECOMENDACIÓN EDITORIAL`).
 
-## Inundaciones
+Los canales de un prestador no reemplazan a los servicios de emergencia (`RECOMENDACIÓN EDITORIAL`).
 
-Según [S05] (comunicado de 2021):
+| Consulta | Canal publicado |
+|---|---|
+| AySA: reclamos técnicos | 0-800-321-AGUA (2482), todos los días, las 24 horas [S52] |
+| Municipio de La Matanza | El sitio municipal publica 107 para emergencias y 147 para atención ciudadana [S50] |
 
-### Antes y al comenzar
+> **PENDIENTE:** falta confirmar los canales operativos municipales de Defensa Civil, los lugares de evacuación y su accesibilidad para cada localidad. No se inferirán a partir de directorios periodísticos ni de otras jurisdicciones. Ver P16 en [PENDIENTES](PENDIENTES.md).
 
-- Tené linternas y pilas cargadas, agua y comida.
-- Guardá o asegurá los objetos del exterior. Alejá lo que el agua pueda arrastrar.
-- Limpiá desagües, cunetas y sumideros. Avisá al municipio si hay uno tapado.
-- Conocé los puntos de evacuación de tu zona.
-- Cortá luz, gas y agua en las llaves principales.
-- Mantené puertas y ventanas cerradas.
+## Plan familiar y alertas
 
-### Durante
+El plan de SINAGIR propone identificar riesgos de la vivienda y del entorno, asignar tareas, definir punto de encuentro y ruta de evacuación, prever atención prioritaria y practicar el plan [S37].
 
-- Si entra agua en la casa, evitá subsuelos y planta baja.
-- No manejes por calles anegadas.
-- No te quedes en zonas inundables.
-- Alejate de postes y cables.
-- Avisá a las autoridades si hay personas con movilidad reducida.
-- No muevas a los heridos: llamá a las autoridades.
+Consultá las alertas del Servicio Meteorológico Nacional [S07] y las indicaciones de tu municipio. Esta copia sin conexión no informa alertas actuales (`RECOMENDACIÓN EDITORIAL`).
+
+## Lluvias e inundaciones
+
+Las páginas generales de SINAGIR respaldan estas pautas [S43]:
+
+- Mantené libres los desagües y asegurá objetos antes del evento.
+- Evitá salir y no circules por calles inundadas.
+- Mantenete lejos de postes y cables.
+- Identificá lugares de evacuación y sitios elevados.
+- Prepará la mochila con documentos, linterna, radio y teléfono.
+
+El corte de electricidad se evalúa antes de que ingrese el agua [S43]. Si el tablero o el recorrido están mojados o no son seguros, no te acerques para operarlo (`RECOMENDACIÓN EDITORIAL` conservadora).
+
+Los comunicados S05 y S06 quedan como antecedentes históricos; se reemplaza su uso como única referencia por páginas generales de preparación. No se los presenta como alertas actuales.
 
 ## Tormentas eléctricas
 
-Según [S06] (comunicado de 2021):
+- Buscá un edificio cerrado o un vehículo de techo rígido; no permanezcas al aire libre [S45].
+- No te refugies bajo árboles aislados ni en carpas [S44, S45].
+- Evitá bañarte, lavar platos o manipular instalaciones conectadas durante la tormenta [S44].
+- Prepará las desconexiones de equipos antes de la tormenta; no manipules enchufes mientras hay riesgo (`RECOMENDACIÓN EDITORIAL` conservadora).
+- Alejate de piletas, ríos y otros cuerpos de agua [S44].
 
-- Evitá salir. Si no queda otra, buscá un refugio seguro.
-- No uses el agua de la canilla: las cañerías pueden conducir electricidad.
-- Desenchufá los artefactos eléctricos y no uses teléfonos con cable.
-- Si estás manejando, quedate dentro del auto.
-- Alejate de piletas, ríos, lagos y del mar.
-- En campo abierto, agachate con la cabeza baja y cubrite los oídos.
-- No te refugies bajo árboles ni estructuras metálicas.
+> **PENDIENTE:** SINAGIR todavía describe permanecer en cuclillas al aire libre, mientras NWS indica que esa posición no aporta seguridad. Se retiró la instrucción de agacharse y se prioriza llegar a un refugio cerrado. Falta contraste con una actualización del SMN. Ver P15 en [PENDIENTES](PENDIENTES.md) [S44, S45].
 
-> **PENDIENTE:** las recomendaciones de SINAGIR citadas son comunicados de 2021. Falta confirmar si siguen vigentes o si hay versiones más recientes. Chequeá siempre las alertas vigentes del Servicio Meteorológico Nacional [S07]. Ver P05 en [PENDIENTES](PENDIENTES.md).
+## Servicios de la vivienda
 
-## Gas, monóxido y radio
-
-- Garrafas y monóxido de carbono: ver [Energía y cocina](03-energia-y-cocina.md).
-- Reglas de ENACOM para radioaficionados: ver [Comunicación](06-comunicacion.md).
+- Gas natural, garrafas y monóxido: [Energía y cocina](03-energia-y-cocina.md).
+- Tanque y reserva de agua: [Agua](01-agua.md).
+- Cortes y evacuación: [Comunicación](06-comunicacion.md) y [Evacuación](08-evacuacion.md).
 
 ## Fuentes
 
-- S04: Argentina.gob.ar, Emergencias.
-- S05: SINAGIR, alerta por crecida del Río de la Plata (2021).
-- S06: SINAGIR, alerta naranja por tormentas (2021).
-- S07: Servicio Meteorológico Nacional, alertas.
+- S04: Argentina.gob.ar: Emergencias.
+- S05: SINAGIR: alerta por crecida del Río de la Plata (2021).
+- S06: SINAGIR: alerta naranja por tormentas (2021).
+- S07: Servicio Meteorológico Nacional: alertas.
+- S37: SINAGIR: Plan Familiar de Emergencias.
+- S43: SINAGIR: qué hacer en caso de lluvias intensas.
+- S44: SINAGIR: qué hacer en caso de tormentas.
+- S45: NWS: Lightning Myths and Facts.
+- S50: Municipio de La Matanza: inicio.
+- S52: AySA: canales de atención.

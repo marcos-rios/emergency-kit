@@ -9,7 +9,7 @@ Cómo usar esta plantilla:
 -->
 
 Última revisión: <!-- AAAA-MM-DD -->
-Próxima revisión: <!-- AAAA-MM-DD, cada 6 meses -->
+Próxima revisión: <!-- AAAA-MM-DD; frecuencia a acordar (RECOMENDACIÓN EDITORIAL) -->
 
 ## Miembros de la familia
 
@@ -40,6 +40,19 @@ Próxima revisión: <!-- AAAA-MM-DD, cada 6 meses -->
 | Pilas | | | |
 | Cartuchos o garrafa | | | |
 
+## Reserva de agua y energía
+
+<!-- Completá solo la copia privada. No supongas que el volumen nominal del tanque es agua potable disponible. -->
+
+| Dato | Valor verificado |
+|---|---|
+| Capacidad nominal del tanque | |
+| Volumen utilizable y estado del agua | |
+| Última limpieza y mantenimiento | |
+| Llenado por presión de red o bomba | |
+| Reserva separada para bebida | |
+| Equipos que necesitan electricidad y plan de respaldo | |
+
 ## Teléfonos locales
 
 <!-- Los nacionales están en 09-argentina.md. Sumá los de tu provincia y municipio. -->
@@ -67,7 +80,7 @@ Próxima revisión: <!-- AAAA-MM-DD, cada 6 meses -->
 
 ## Llaves de servicios
 
-<!-- Dónde están y cómo se cierran. Todos los adultos tienen que saberlo. -->
+<!-- Ubicación y procedimiento acordado con un profesional. No operar si hay agua, riesgo eléctrico, olor fuerte a gas o si retrasa una evacuación. -->
 
 - Gas: <!-- -->
 - Agua: <!-- -->

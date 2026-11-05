@@ -1,19 +1,19 @@
 ---
 titulo: Checklist del auto
-ultima_revision: 2026-11-02
+ultima_revision: 2026-11-05
 estado: borrador
 confianza: editorial
-fuentes: [S01]
+fuentes: []
 ---
 
 # Checklist del auto
 
-Tené un kit básico en el auto [S01]. El resto es `RECOMENDACIÓN EDITORIAL`. Detalle: [Evacuación](../08-evacuacion.md).
+Todo este archivo es `RECOMENDACIÓN EDITORIAL`. Tené un kit básico en el auto si disponés de vehículo. Detalle: [Evacuación](../08-evacuacion.md).
 
 ## Vehículo
 
 - [ ] Tanque razonablemente lleno.
-- [ ] Cargador de 12 V para el celular. Usalo con el auto encendido al aire libre, nunca en un garaje cerrado.
+- [ ] Cargador de 12 V para el celular. Usalo con el auto encendido al aire libre, nunca en un garaje, aunque esté abierto.
 
 ## Kit básico
 
@@ -31,4 +31,4 @@ Tené un kit básico en el auto [S01]. El resto es `RECOMENDACIÓN EDITORIAL`. D
 
 ## Fuentes
 
-- S01: Ready.gov, Build a Kit.
+Este archivo no usa fuentes externas.

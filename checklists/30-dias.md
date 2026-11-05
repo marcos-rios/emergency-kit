@@ -1,9 +1,9 @@
 ---
 titulo: Checklist de 30 días
-ultima_revision: 2026-11-02
+ultima_revision: 2026-11-05
 estado: borrador
-confianza: editorial
-fuentes: [S02]
+confianza: mixta
+fuentes: [S02, S10, S39]
 ---
 
 # Checklist de 30 días
@@ -16,14 +16,14 @@ Escenario opcional. Antes de empezar, leé el aviso de [Modo largo plazo](../10-
 
 ## Agua
 
-- [ ] Reserva o tanque de agua. Un tanque de 1.000 L cubre unos 83 días de bebida y cocina para 4 personas (`ESTIMACIÓN`: 1.000 / 12).
+- [ ] Reserva o tanque de agua, con volumen y calidad verificados. Si hay 1.000 L potables utilizables, el máximo teórico para la base de bebida y cocina de 4 personas es de unos 83 días, sin otros consumos (`ESTIMACIÓN`: 1.000 / (4 × 3) = 83,3).
 - [ ] Recolección de lluvia con canaletas, descarte del primer lavado y tanque tapado.
-- [ ] Filtro de gravedad de cerámica o de 0,1 micrón.
+- [ ] Filtro con poro absoluto y prestaciones verificadas. Ver [Agua](../01-agua.md) [S39].
 - [ ] Desinfectante para usar después del filtro [S02].
 
 ## Comida
 
-Canasta mensual por persona (`ESTIMACIÓN`, ver [largo-plazo.csv](../calculadoras/largo-plazo.csv)):
+Ejemplo de inventario mensual, sin validación nutricional (`ESTIMACIÓN`, ver [largo-plazo.csv](../calculadoras/largo-plazo.csv)):
 
 - [ ] Arroz: 4 kg.
 - [ ] Legumbres secas: 3 kg.
@@ -32,7 +32,7 @@ Canasta mensual por persona (`ESTIMACIÓN`, ver [largo-plazo.csv](../calculadora
 - [ ] Aceite: 1 L.
 - [ ] Azúcar: 1,5 kg.
 - [ ] Latas, sal, frutos secos y leche en polvo.
-- [ ] Multivitamínico.
+- [ ] Revisión nutricional de la canasta; suplementos solo si los indica un profesional.
 - [ ] Baldes herméticos y estantes en un lugar seco, fresco y oscuro.
 
 ## Energía y cocina
@@ -40,12 +40,12 @@ Canasta mensual por persona (`ESTIMACIÓN`, ver [largo-plazo.csv](../calculadora
 - [ ] Panel solar plegable y power station dimensionada en Wh.
 - [ ] Leña seca bajo techo, lejos de la casa.
 - [ ] Gas en gabinete exterior ventilado, nunca en el garaje.
-- [ ] Todos saben que el auto y el generador nunca se encienden en un garaje cerrado.
+- [ ] Todos saben que el auto y el generador nunca se encienden en un garaje, aunque esté abierto.
 
 ## Saneamiento
 
 - [ ] Inodoro de emergencia armado. Ver [Saneamiento](../04-saneamiento.md).
-- [ ] Ubicación posible para una letrina, consultada con el municipio.
+- [ ] Disposición sanitaria de residuos acordada con el municipio; sin cavar letrinas urbanas. Ver [Saneamiento](../04-saneamiento.md) [S10].
 
 ## Salud
 
@@ -55,9 +55,11 @@ Canasta mensual por persona (`ESTIMACIÓN`, ver [largo-plazo.csv](../calculadora
 ## Producción y comunicación
 
 - [ ] Huerta empezada y semillas guardadas.
-- [ ] Recetas de conservas probadas.
+- [ ] No depender de conservas caseras sin proceso validado y asesoramiento de bromatología.
 - [ ] Información sobre la licencia de radioaficionado. Ver [Comunicación](../06-comunicacion.md).
 
 ## Fuentes
 
-- S02: CDC, cómo hacer que el agua sea segura en una emergencia.
+- S02: CDC: cómo hacer que el agua sea segura en una emergencia.
+- S10: King County: cómo armar un inodoro de emergencia.
+- S39: CDC: How to Make Water Safe in an Emergency.

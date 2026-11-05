@@ -1,7 +1,7 @@
-item,cantidad_por_persona_mes,unidad,kcal_por_unidad,kcal_total
-Arroz,4,kg,3600,14400
-Legumbres secas,3,kg,3400,10200
-Harina,4,kg,3640,14560
-Fideos,2,kg,3570,7140
-Aceite,1,L,8100,8100
-Azúcar,1.5,kg,3870,5805
+item,cantidad_por_persona_mes,unidad,kcal_por_unidad,kcal_total,estado_valores,nota
+Arroz,4,kg,3600,14400,PENDIENTE P08: kcal_por_unidad sin fuente verificada,ESTIMACIÓN: cantidad_por_persona_mes × kcal_por_unidad = kcal_total; no es dieta completa
+Legumbres secas,3,kg,3400,10200,PENDIENTE P08: kcal_por_unidad sin fuente verificada,ESTIMACIÓN: cantidad_por_persona_mes × kcal_por_unidad = kcal_total; no es dieta completa
+Harina,4,kg,3640,14560,PENDIENTE P08: kcal_por_unidad sin fuente verificada,ESTIMACIÓN: cantidad_por_persona_mes × kcal_por_unidad = kcal_total; no es dieta completa
+Fideos,2,kg,3570,7140,PENDIENTE P08: kcal_por_unidad sin fuente verificada,ESTIMACIÓN: cantidad_por_persona_mes × kcal_por_unidad = kcal_total; no es dieta completa
+Aceite,1,L,8100,8100,PENDIENTE P08: kcal_por_unidad sin fuente verificada,ESTIMACIÓN: cantidad_por_persona_mes × kcal_por_unidad = kcal_total; no es dieta completa
+Azúcar,1.5,kg,3870,5805,PENDIENTE P08: kcal_por_unidad sin fuente verificada,ESTIMACIÓN: cantidad_por_persona_mes × kcal_por_unidad = kcal_total; no es dieta completa

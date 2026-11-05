@@ -6,6 +6,22 @@ El formato se basa en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/
 
 ## [Sin publicar]
 
+### Revisión del 2026-11-05
+
+- Repaso integral documentado en `REVISION.md`: qué se conserva, correcciones aplicadas y límites de la evidencia.
+- Contexto internacional contrastado con fuentes primarias; registro de fuentes ampliado y discrepancia de fecha británica resuelta.
+- Agua: se separa bebida/comidas de higiene; se priorizan etiqueta y pauta local de lavandina; se resuelve la traducción del CDC y se agrega mantenimiento del tanque.
+- Energía: se elimina la equivalencia entre ventilación e instalación exterior segura; se retira la indicación doméstica de mover envases con pérdida y la promesa de autonomía de baterías.
+- Saneamiento y tormentas: se retiran letrinas urbanas como solución genérica y cuclillas como protección ante rayos; se registran permisos locales y discrepancias pendientes.
+- Salud y alimentos: se usan referencias primarias; se retiran compras universales de medicamentos y suplementos; las canastas quedan identificadas como estimaciones sin validación nutricional.
+- Comunicación: se corrige la actualización periódica de antecedentes de radioaficionados según ENACOM.
+- Checklists, compras, evacuación y plantilla alineadas con las correcciones de seguridad y privacidad.
+- Calculadora: corrige el escalado para uno y dos días y calcula el resumen de latas desde las filas redondeadas.
+- Validador: comprueba correspondencia de fuentes por archivo, bibliografía final y pendientes cerrados; admite enlaces telefónicos.
+- Pruebas de regresión con biblioteca estándar y actualización de pendientes, sin elegir licencia.
+- Adaptación de vivienda creada únicamente en la carpeta privada ignorada por Git; sin datos reales incorporados al contenido público.
+- Aclaraciones posteriores del usuario incorporadas solo al plan privado; se retiran supuestos no confirmados.
+
 ## [0.1.0] - 2026-11-02
 
 ### Agregado

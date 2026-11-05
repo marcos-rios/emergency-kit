@@ -1,6 +1,6 @@
 ---
 titulo: Seguridad y vecinos
-ultima_revision: 2026-11-02
+ultima_revision: 2026-11-05
 estado: borrador
 confianza: editorial
 fuentes: []
@@ -10,7 +10,7 @@ fuentes: []
 
 Todo este archivo es `RECOMENDACIÓN EDITORIAL`.
 
-La seguridad más efectiva en una crisis es la discreción y la comunidad.
+La guía propone cuidar la privacidad y organizar ayuda entre vecinos.
 
 ## Discreción
 
@@ -21,8 +21,8 @@ La seguridad más efectiva en una crisis es la discreción y la comunidad.
 ## Red de vecinos
 
 - Armá un grupo con los vecinos cercanos para avisarse ante cortes, alertas o problemas.
-- Organicen turnos para revisar el barrio, cargar celulares o buscar información.
-- Compartan recursos: una radio, un generador usado al aire libre, herramientas, agua.
+- Coordinen ayuda para cargar celulares, buscar información oficial y asistir a quienes lo necesiten, sin exponerse.
+- Compartan recursos: una radio, un equipo de respaldo instalado y usado de forma segura (ver [Energía y cocina](03-energia-y-cocina.md)), herramientas, agua.
 - Identifiquen a quienes pueden necesitar ayuda: personas mayores, con discapacidad, con chicos pequeños o que viven solas.
 - Acuerden cómo avisar a Defensa Civil si alguien necesita asistencia. Ver [Argentina](09-argentina.md).
 

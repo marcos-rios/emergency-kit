@@ -1,20 +1,22 @@
 ---
 titulo: Comida
-ultima_revision: 2026-11-02
+ultima_revision: 2026-11-05
 estado: borrador
 confianza: mixta
-fuentes: [S01, S03, S28]
+fuentes: [S03, S30, S31, S34, S38]
 ---
 
 # Comida
 
 ## Principios
 
-- Guardá comida para 3 días como mínimo y para 7 si podés [S01, S28].
-- Elegí alimentos que no necesiten heladera ni cocción compleja [S01].
-- Guardá lo que la familia ya come [S01]. Así la reserva se rota sola y no se desperdicia (`RECOMENDACIÓN EDITORIAL`).
+- Tomá como referencia al menos 3 días y, si podés, una semana de alimentos, según el pedido japonés [S31]. Las cantidades de esta guía siguen siendo orientativas.
+- Elegí alimentos que no necesiten heladera ni cocción compleja [S30].
+- Guardá lo que la familia ya come [S34]. Así la reserva se rota sola y no se desperdicia (`RECOMENDACIÓN EDITORIAL`).
 
 ## Qué guardar
+
+Selección orientativa, no menú ni dieta completa (`RECOMENDACIÓN EDITORIAL`).
 
 - Atún, caballa o sardinas en lata.
 - Legumbres, choclo o arvejas en lata.
@@ -31,13 +33,13 @@ Las cantidades para una familia de 4 personas, para 3 y 7 días, están en [cant
 
 ## Conservación
 
-- Guardá las latas en un lugar fresco y seco [S01].
-- Guardá los alimentos en caja dentro de recipientes cerrados de plástico o metal [S01].
-- Reponé lo vencido y revisá la reserva una vez por año [S01].
+- Guardá las reservas en un lugar fresco, seco y oscuro, con envases cerrados [S34].
+- Protegé los envases de humedad y plagas (`RECOMENDACIÓN EDITORIAL`).
+- Revisá vencimientos y necesidades cada 6 meses, según la checklist británica [S30].
 - Anotá la fecha de compra en cada producto y usá primero lo más viejo (`RECOMENDACIÓN EDITORIAL`).
 - Comprá de a poco: sumá dos o tres productos en cada compra habitual (`RECOMENDACIÓN EDITORIAL`).
-- Sumá platos, vasos y cubiertos descartables para ahorrar agua [S01].
-- Incluí un abrelatas manual [S01].
+- Evaluá vajilla y agua de lavado según tu situación (`RECOMENDACIÓN EDITORIAL`).
+- Incluí un abrelatas manual [S38].
 
 ## Corte de luz: heladera y freezer
 
@@ -57,16 +59,20 @@ Las cantidades para una familia de 4 personas, para 3 y 7 días, están en [cant
 
 `RECOMENDACIÓN EDITORIAL`
 
+Este orden se aplica solo a alimentos que siguen siendo seguros; nunca justifica consumir comida que perdió la cadena de frío [S03].
+
 1. Primero lo de la heladera.
 2. Después lo del freezer.
 3. Por último, la alacena.
 
 ## Bebés, chicos y mascotas
 
-Sumá leche o fórmula, comida para bebés y comida para mascotas. Ver [Salud](05-salud.md).
+Adaptá la reserva a alergias, dietas, edades y animales a cargo [S38]. La canasta no es una dieta completa ni está ajustada por edad (`RECOMENDACIÓN EDITORIAL`). Ver [Salud](05-salud.md).
 
 ## Fuentes
 
-- S01: Ready.gov, Build a Kit.
-- S03: CDC, desechar alimentos después de un apagón.
-- S28: Unilad, preparación en EE. UU. (FEMA y Ready.gov).
+- S03: CDC: desechar alimentos después de un apagón.
+- S30: Reino Unido: checklist Be Ready.
+- S31: Japón: pedido de preparación preventiva.
+- S34: BBK: Stockpiling.
+- S38: Cruz Roja Americana: Survival Kit Supplies.

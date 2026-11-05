@@ -1,19 +1,23 @@
 # Pendientes
 
-Datos sin verificar, contradictorios o tareas abiertas. En el contenido se marcan con `> **PENDIENTE:** ...` y una referencia al ID de esta lista. `scripts/validar.py` controla que cada marca tenga su entrada.
+Revisión: 2026-11-05. Una casilla cerrada indica que se resolvió la pregunta concreta, no que toda la temática esté validada. Ver [REVISION.md](REVISION.md) para el diagnóstico.
 
-Al cerrar un pendiente, marcá la casilla, actualizá el contenido y anotá el cambio en [CHANGELOG.md](CHANGELOG.md).
+Los datos sin verificar se marcan en el contenido con `> **PENDIENTE:** ...` y un ID de esta lista. Al resolverlos, actualizá el contenido, la bibliografía y [CHANGELOG.md](CHANGELOG.md).
 
-- [ ] **P01.** Garrafas en vivienda: límite de cantidad y formatos permitidos. YPF Gas lista garrafas de 10 y 15 kg y un cilindro de 45 kg (S12); un gasista citado por La Capital afirma que en domicilios solo está permitido el cilindro de 45 kg (S13). Consultar la normativa de ENARGAS, al proveedor, al municipio o a Bomberos. Afecta a [03-energia-y-cocina.md](03-energia-y-cocina.md).
-- [ ] **P02.** Handies y walkie-talkies: bandas y frecuencias de uso libre en Argentina y requisitos de homologación de ENACOM. Afecta a [06-comunicacion.md](06-comunicacion.md).
-- [ ] **P03.** Disponibilidad en Argentina de la mensajería satelital de emergencia en celulares. Afecta a [06-comunicacion.md](06-comunicacion.md).
-- [ ] **P04.** Normativa municipal y sanitaria sobre pozos y letrinas. Afecta a [04-saneamiento.md](04-saneamiento.md).
-- [ ] **P05.** Vigencia de las recomendaciones de SINAGIR: los comunicados citados (S05 y S06) son de 2021. Buscar versiones más recientes. Afecta a [09-argentina.md](09-argentina.md).
-- [ ] **P06.** Leer y contrastar el folleto sueco (S23, conseguir la edición en inglés), la guía de Berlín (S24) y la guía de la Cruz Roja (S22).
-- [ ] **P07.** Concentración de la lavandina de uso doméstico en Argentina frente a la tabla del CDC (5 a 9 % de hipoclorito). Revisar etiquetas locales. Afecta a [01-agua.md](01-agua.md).
-- [ ] **P08.** Validar con un profesional de nutrición las cantidades de comida de [cantidades.csv](calculadoras/cantidades.csv) y la canasta de largo plazo de [largo-plazo.csv](calculadoras/largo-plazo.csv). Afecta a [10-modo-largo-plazo.md](10-modo-largo-plazo.md).
-- [ ] **P09.** Elegir la licencia del contenido (por ejemplo, CC BY-SA 4.0) y crear `LICENSE`.
-- [ ] **P10.** Revisión semestral de todas las fuentes y cifras. Próxima: 2027-05-02.
-- [ ] **P11.** Lavandina: la versión en español del CDC (S02) indica 2 gotas para "1 cuarto de litro" y 8 gotas por galón, cifras incoherentes entre sí. Contrastar con la versión en inglés y confirmar si son 2 gotas por litro (criterio actual de la guía). Afecta a [01-agua.md](01-agua.md).
-- [ ] **P12.** Fecha de lanzamiento de la campaña británica Be Ready: 22 de octubre de 2026 según S26 y 23 de octubre según S27. Confirmar con la fuente oficial del gobierno del Reino Unido. Afecta a [README.md](README.md).
-- [ ] **P13.** Fuentes no accesibles para el agente el 2026-11-02: S07 (HTTP 402), S17 (HTTP 429) y S22 (HTTP 403). Abrirlas a mano y confirmar lo que respaldan, en especial la semana de medicación atribuida a S17.
+- [ ] **P01.** Límites normativos locales de instalación, cantidad y almacenamiento de garrafas. La orientación oficial S47 contradice la prohibición general atribuida a S13, pero no determina todos los límites municipales ni habilita cualquier instalación. Se retiró esa prohibición como regla general de [Energía](03-energia-y-cocina.md).
+- [ ] **P02.** Handies: verificar bandas, homologación y condiciones de operación en normativa vigente de ENACOM. No se publican frecuencias ni equipos supuestamente libres sin esa comprobación. Afecta a [Comunicación](06-comunicacion.md).
+- [ ] **P03.** Mensajería satelital: verificar modelo, operador, cobertura efectiva en Argentina y disponibilidad del servicio de emergencia correspondiente. No se considera respaldo garantizado. Afecta a [Comunicación](06-comunicacion.md).
+- [ ] **P04.** Disposición sanitaria de excretas embolsadas y normativa municipal sobre letrinas. La fuente extranjera S10 no es autorización local; se retiró la instrucción de cavar una letrina urbana. Afecta a [Saneamiento](04-saneamiento.md).
+- [x] **P05.** Dependencia de comunicados históricos de SINAGIR: reemplazada por páginas generales consultadas S43 y S44. La discrepancia de seguridad sobre rayos se mantiene abierta como P15. No se certifica una alerta vigente.
+- [ ] **P06.** Completar lectura del PDF de la Cruz Roja en español S22 y del folleto sueco enlazado por S23. S24 (Berlín) ya fue leído; se usaron además las páginas primarias S35 y S38. La accesibilidad del PDF no equivale a lectura completa.
+- [x] **P07.** Aplicabilidad de la tabla estadounidense de lavandina: se reemplazó por la pauta local de ANMAT S40 y SENASA S51, que exige revisar aptitud e instrucciones del envase. No se supone una concentración doméstica única ni se valida un producto particular.
+- [ ] **P08.** Validación nutricional de las canastas y fuente de sus valores energéticos. La cuenta de calorías se puede reproducir, pero los valores por alimento no tienen fuente verificada y el resultado no demuestra una dieta completa ni adecuación para chicos. Afecta a [Comida](02-comida.md), [Modo largo plazo](10-modo-largo-plazo.md) y [calculadoras](calculadoras/README.md).
+- [ ] **P09.** Decidir la licencia del contenido y crear `LICENSE`. No se elige una licencia en nombre del titular sin su decisión.
+- [ ] **P10.** Revisión periódica general: próxima fecha editorial 2027-05-02. Revisar fuentes y capacidades locales antes si cambian las condiciones. El repaso documental no reemplaza revisión profesional de instalaciones o salud.
+- [x] **P11.** Error de traducción del CDC: S39 en inglés dice litro o cuarto de galón, frente al cuarto de litro de S02. La instrucción local ahora sigue S40 y S51; no se mantiene una dosis dudosa por defecto.
+- [x] **P12.** Fecha británica: el comunicado oficial S29 está fechado el 22 de octubre de 2026 y resuelve la discrepancia entre S26 y S27.
+- [ ] **P13.** Reconsulta de fuentes: S01 y S07 devolvieron HTTP 403; S17 no devolvió el cuerpo del artículo; S09 no fue accesible. S22 ya es accesible. Sigue pendiente confirmar cambios de Ready.gov, las alertas actuales del SMN y el contenido no recuperado, sin reemplazarlo por fragmentos de búsqueda.
+- [ ] **P14.** Conteo de 33 países y seis continentes: construir una lista trazable de anuncios oficiales y fechas antes de presentarlo como dato confirmado. El artículo S17 no se pudo leer completo; el conteo no implica anuncios simultáneos. Afecta al [README](README.md).
+- [ ] **P15.** Tormentas eléctricas: S44 (SINAGIR) describe cuclillas al aire libre, mientras S45 (NWS) indica que esa posición no aporta seguridad. Se retiró la instrucción y se priorizó buscar un refugio cerrado. Falta contrastar una actualización del SMN.
+- [ ] **P16.** Canales operativos municipales de Defensa Civil, lugares de evacuación y accesibilidad por localidad. Confirmar en fuentes municipales y en el plan privado, sin asignar teléfonos o centros de una jurisdicción a otra. Morón no pudo consultarse; La Matanza publica canales generales en S50. Afecta a [Argentina](09-argentina.md).
+- [ ] **P17.** Datos necesarios para dimensionar agua y electricidad: volumen utilizable y mantenimiento del tanque, dependencia de bomba, cargas eléctricas, autonomía requerida y necesidades particulares. Se completan exclusivamente en `mi-plan/`. No se promete autonomía ni se prescribe una instalación con esos datos ausentes.
